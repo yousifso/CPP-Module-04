@@ -12,13 +12,7 @@
 
 #include "Dog.hpp"
 #include "Cat.hpp"
-
-#include "Dog.hpp"
-#include "Cat.hpp"
-
-#include "Dog.hpp"
-#include "Cat.hpp"
-
+/*
 int main() {
     std::cout << "\n### Virtual Destructor Test ###" << std::endl;
 
@@ -26,14 +20,14 @@ int main() {
     const Animal* cat = new Cat();
 
     std::cout << "\nDeleting dog (via Animal pointer):" << std::endl;
-    delete dog;  // If Animal destructor is NOT virtual -> Only Animal destroyed
+    delete dog;
 
     std::cout << "\nDeleting cat (via Animal pointer):" << std::endl;
-    delete cat;  // If Animal destructor is NOT virtual -> Only Animal destroyed
+    delete cat;
 
     return 0;
 }
-
+*/
 /*
 int main() {
     std::cout << "\n### Deep Copy Test with Scope ###" << std::endl;
@@ -67,7 +61,6 @@ int main() {
     return 0;
 }
 */
-/*
 int main() 
 {
     const Animal* j = new Dog(); 
@@ -77,4 +70,4 @@ int main()
     delete j;
     return 0;
 }
-*/
+
